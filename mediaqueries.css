@@ -100,4 +100,28 @@
   .text-container {
     text-align: justify;
   }
+  .experience-grid,
+  .education-grid,
+  .experience-info {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .company-logo,
+  .university-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .experience-grid,
+  .education-grid,
+  .experience-info {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .company-logo,
+  .university-logo {
+    width: 120px;
+    height: 120px;
+  }
 }

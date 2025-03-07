@@ -430,3 +430,24 @@ footer {
 footer p {
   text-align: center;
 }
+.company-logo,
+.university-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain; /* keeps the aspect ratio intact */
+}
+.experience-grid,
+.education-grid {
+  display: flex;
+  flex-direction: row;        /* Items will wrap if necessary */
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.experience-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Adjust alignment as needed */
+  align-items: center;
+  gap: 2rem; /* Spacing between items */
+}
